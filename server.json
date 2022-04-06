@@ -1,0 +1,102 @@
+{
+  "continents": [
+    { "id": 1, 
+      "name": "Europa", 
+      "description": "O continente mais antigo", 
+      "imageUrl": "http://localhost:3000/europa.png",
+      "slug": "europa",
+      "content": {
+        "imageUrl": "http://localhost:3000/europa2.png",
+        "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
+        "countries": 50,
+        "languages": 60,
+        "cities": [
+          {
+              "id": 1,
+              "name": "Londres",
+              "capital": "Reino Unido",
+              "image": "http://localhost:3000/londres.png",
+              "flagImage": "http://localhost:3000/reinounido_flag.png"
+          },
+          {
+            "id": 2,
+              "name": "Paris",
+              "capital": "França",
+              "image": "http://localhost:3000/paris.png",
+              "flagImage": "http://localhost:3000/franca_flag.png"
+          },
+          {
+            "id": 3,
+              "name": "Roma",
+              "capital": "Itália",
+              "image": "http://localhost:3000/roma.png",
+              "flagImage": "http://localhost:3000/italia_flag.png"
+          },
+          {
+            "id": 4,
+              "name": "Praga",
+              "capital": "República Tcheca",
+              "image": "http://localhost:3000/praga.png",
+              "flagImage": "http://localhost:3000/republica_flag.png"
+          },
+          {
+            "id": 5,
+              "name": "Amsterdã",
+              "capital": "Holanda",
+              "image": "http://localhost:3000/amsterda.png",
+              "flagImage": "http://localhost:3000/holanda_flag.png"
+          }
+        ]
+      }
+    },
+    { "id": 2, 
+      "name": "Ásia", 
+      "description": "O maior dos continentes", 
+      "imageUrl": "http://localhost:3000/asia.jpg",
+      "slug": "asia",
+      "content": {
+        "imageUrl": "http://localhost:3000/asia2.png",
+        "description": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial.",
+        "countries": 50,
+        "languages": 37,
+        "cities": [
+          {
+              "id": 1,
+              "name": "Londres",
+              "capital": "Reino Unido",
+              "image": "http://localhost:3000/londres.png",
+              "flagImage": "http://localhost:3000/reinounido_flag.png"
+          },
+          {
+            "id": 2,
+              "name": "Paris",
+              "capital": "França",
+              "image": "http://localhost:3000/paris.png",
+              "flagImage": "http://localhost:3000/franca_flag.png"
+          },
+          {
+            "id": 3,
+              "name": "Roma",
+              "capital": "Itália",
+              "image": "http://localhost:3000/roma.png",
+              "flagImage": "http://localhost:3000/italia_flag.png"
+          },
+          {
+            "id": 4,
+              "name": "Praga",
+              "capital": "República Tcheca",
+              "image": "http://localhost:3000/praga.png",
+              "flagImage": "http://localhost:3000/republica_flag.png"
+          },
+          {
+            "id": 5,
+              "name": "Amsterdã",
+              "capital": "Holanda",
+              "image": "http://localhost:3000/amsterda.png",
+              "flagImage": "http://localhost:3000/holanda_flag.png"
+          }
+        ]
+      }
+    }
+  ]
+}
